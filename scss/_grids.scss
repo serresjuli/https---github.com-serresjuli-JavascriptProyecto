@@ -1,0 +1,102 @@
+/*GRID ENCABEZADO*/
+.encabezado{
+    display: grid;
+    grid-template-areas: "logo"
+    "titulo";
+    grid-template-rows: 81px 20px;
+    grid-template-columns: 100%;
+    .encabezado__logo{
+        grid-area: logo; 
+    }
+    .encabezado__titulo{
+        grid-area: titulo; 
+    }
+}
+/*GRID FOOTER*/
+.piedepag{
+    display: grid;
+    grid-template-areas: "contacto redes"
+    "copyright copyright";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 30px;
+    .piedepag__contacto{
+        grid-area: contacto;
+    }
+    .piedepag__redes{
+        grid-area: redes;   
+    }
+    .piedepag__copyright{
+        grid-area: copyright;
+    }
+}
+/*GRID GENERAL PRODUCTOS*/
+.bodyproductos{
+    display: grid;
+    grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 103px 35px 95% 150px;
+    header{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+/*GRID MAIN PRODUCTOS*/
+.cuerpo__productos{
+    display: grid;
+    grid-template-areas: "beneficios"
+    "titular"
+    "productos"
+    "formulario";
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 20px 900px 310px;
+    .beneficios{
+        grid-area: beneficios;
+    }
+    .titular__productos{
+        grid-area: titular;
+    }
+    .productos{
+        grid-area: productos;
+    }
+    .formularioContacto{
+        grid-area: formulario
+    }
+}
+/*GRID CONTACTO*/
+.form__contacto{
+    display: grid;
+    grid-template-areas: "nombre" 
+    "telefono"
+    "correo" 
+    "producto" 
+    "botones";
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    .form__nombre{
+        grid-area: nombre;
+    }
+    .form__telefono{
+        grid-area: telefono;
+    }
+    .form__correo{
+        grid-area: correo;
+    }
+    .form__producto{
+        grid-area: producto;
+    }
+    .form__botones{
+        grid-area: botones;
+    }
+}

@@ -1,0 +1,90 @@
+/*GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    border-radius: 3%;
+    max-width: 100%;
+    height: auto;
+}
+/*ENCABEZADO*/
+.encabezado__logo{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+/*BARRA MENU*/
+.menu__carrito{
+    text-align: end;
+}
+/*MAIN*/
+main{
+    padding-top: 5px;
+}
+/*BANNER BENEFICIOS*/
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px;
+}
+.envios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .icono__envios{
+        padding-right: 4px;
+    }
+}
+.pagos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: 4px;
+}
+.titular__productos{
+    padding-left: 5px;
+}
+/*PRODUCTOS*/
+.productos__box{
+    width: 170px;
+    height: 375px;
+    margin: 25px;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.comprar{
+    width: 120px;
+    margin: 7px
+}
+.contacto{
+    width: 120px;
+    margin: 7px
+}
+.btn_form{
+    width: 120px;
+    margin: 7px
+}
+/*CONTACTO*/
+.titular__contacto{
+    height: 50px;
+    width: 100%;
+}
+.form__contacto{
+    padding: 15px;
+}
+/*FOOTER*/
+.padding-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-redes{
+    padding: 20px;
+}

@@ -1,0 +1,105 @@
+@media screen and (max-width:1150px){
+    /*GRID GENERAL PRODUCTOS*/
+    .bodyproductos{
+        display: grid;
+        grid-template-areas: "header"
+        "nav"
+        "main"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 103px 35px 200% 150px;
+        header{
+            grid-area: header;
+        }
+        nav{
+            grid-area: nav;
+        }
+        main{
+            grid-area: main;
+        }
+        footer{
+            grid-area: footer;
+        }
+    }
+}
+@media screen and (max-width:670px){
+    .productos__box{
+        width: 150px;
+        height: 375px;
+        margin: 15px;
+    }
+}
+@media screen and (max-width:480px){
+    .textobig{
+        font-size: 14px;
+    }
+    .piedepag__copyright{
+        text-align: center;
+    }
+    /*GRID FOOTER*/
+    .piedepag{
+        display: grid;
+        grid-template-areas: "contacto"
+        "redes"
+        "copyright";
+        grid-template-columns: 100%;
+        grid-template-rows: 120px 60px 35px;
+        .piedepag__contacto{
+            grid-area: contacto;
+        }
+        .piedepag__redes{
+            grid-area: redes;   
+        }
+        .piedepag__copyright{
+            grid-area: copyright;
+        }
+    }
+    .linkfooter{
+        font-size: 18px;
+        margin: 4px;
+    }
+    /*PRODUCTOS*/
+    .productos__box{
+        width: 130px;
+        height: 375px;
+        margin: 10px;
+    }
+    .bodyproductos{
+        display: grid;
+        grid-template-areas: "header"
+        "nav"
+        "main"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 103px 35px 200% 220px;
+        header{
+            grid-area: header;
+        }
+        nav{
+            grid-area: nav;
+        }
+        main{
+            grid-area: main;
+        }
+        footer{
+            grid-area: footer;
+        }
+    }
+    .cuerpo__contacto{
+        display: grid;
+        grid-template-areas: "titular titular"
+        "form form"
+        "links links";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25px 350px 350px;
+        .form__contacto{
+            grid-area: form;
+        }
+        .links__contacto{
+            grid-area: links;
+        }
+    }
+
+}
+
+

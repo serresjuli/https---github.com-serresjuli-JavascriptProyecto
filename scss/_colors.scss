@@ -1,0 +1,45 @@
+$COLORPORLAS: #857b7b;
+/*GENERALES*/
+.fondo-transparente{
+    background: rgb(204,204,219);
+    background: radial-gradient(circle, rgba(204,204,219,0.10688025210084029) 0%, rgba(184,171,171,1) 50%, rgba(204,204,219,0.10688025210084029) 100%);
+}
+.link{
+    color: #000000;
+}
+.link:hover{
+        color: #590F23;
+}
+/*ENCABEZADO*/
+.encabezado{
+    background-color: #fefffc;
+}
+/*MENU*/
+.menu{
+    background-image: url(../imagenes/imgEncabezado1.jpg);
+}
+/*BENEFICIOS*/ 
+.envios{
+    border-right: 1px solid #000000;
+}
+.pagos{
+    border-left: 1px solid #000000;
+}
+/*PRODUCTOS*/
+.productos__box{
+    margin: 3px;
+    border: 2px solid #857b7b;
+    border-radius: 3%;
+}
+.formularioContacto{
+    background-image: url(../imagenes/imgEncabezado1.jpg);
+}
+.form__contacto{
+    background-color: whitesmoke;
+}
+/*FOOTER*/
+.piedepag{
+    background-image: url(../imagenes/imgEncabezado1.jpg);
+}
+
+

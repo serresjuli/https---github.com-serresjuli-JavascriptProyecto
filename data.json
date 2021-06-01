@@ -1,0 +1,108 @@
+[{
+    "id":"1",
+    "nombre":"CONJUNTO",
+    "color":"BEIGE",
+    "precio":"1950",
+    "descripcion":"LANA",
+    "talle":"3M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos1.jpg' alt='tejido1'>"
+},
+{
+    "id":"2",
+    "nombre":"CHALECO",
+    "color":"AZUL",
+    "precio":"750",
+    "descripcion":"LANA",
+    "talle":"6M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos2.jpg' alt='tejido2'>"
+},
+{
+    "id":"3",
+    "nombre":"CONJUNTO",
+    "color":"ROSA",
+    "precio":"1950",
+    "descripcion":"LANA",
+    "talle":"9M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos3.jpg' alt='tejido3'>"
+},
+{
+    "id":"4",
+    "nombre":"RANITA",
+    "color":"BLANCA",
+    "precio":"799",
+    "descripcion":"LANA",
+    "talle":"0M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos4.jpg' alt='tejido4'>"
+},
+{
+    "id":"5",
+    "nombre":"ENTERITO",
+    "color":"AERO",
+    "precio":"1250",
+    "descripcion":"LANA",
+    "talle":"12M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos5.jpg' alt='tejido5'>"
+},
+{
+    "id":"6",
+    "nombre":"GORRO",
+    "color":"CELESTE",
+    "precio":"620",
+    "descripcion":"LANA",
+    "talle":"9M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos6.jpg' alt='tejido6'>"
+},
+{
+    "id":"7",
+    "nombre":"CONJUNTO",
+    "color":"VERDE",
+    "precio":"1950",
+    "descripcion":"LANA",
+    "talle":"18M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos7.jpg' alt='tejido7'>"
+},
+{
+    "id":"8",
+    "nombre":"GORRO",
+    "color":"GRIS",
+    "precio":"690",
+    "descripcion":"LANA",
+    "talle":"12M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos8.jpg' alt='tejido8'>"
+},
+{
+    "id":"9",
+    "nombre":"CONJUNTO",
+    "color":"AZUL",
+    "precio":"1950",
+    "descripcion":"LANA",
+    "talle":"6M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos9.jpg' alt='tejido9'>"
+},{
+    "id":"10",
+    "nombre":"SAQUITO",
+    "color":"BEIGE",
+    "precio":"1450",
+    "descripcion":"LANA",
+    "talle":"3M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos1.jpg' alt='tejido1'>"
+},
+{
+    "id":"11",
+    "nombre":"SAQUITO",
+    "color":"ROSA",
+    "precio":"1450",
+    "descripcion":"LANA",
+    "talle":"9M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos3.jpg' alt='tejido3'>"
+},
+{
+    "id":"12",
+    "nombre":"SAQUITO",
+    "color":"VERDE",
+    "precio":"1450",
+    "descripcion":"LANA",
+    "talle":"18M",
+    "imagen":"<img class='img__box img' src='imagenes/tejidos7.jpg' alt='tejido7'>"
+}
+]
