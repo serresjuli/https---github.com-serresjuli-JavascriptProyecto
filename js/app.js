@@ -53,14 +53,13 @@ $('.formularioContacto').prepend("<div class='titular__contacto'><h2 class='text
             "<input type='Text' name='Consulta'/>"+
             "</div>"+
         "<div class='form__botones'>"+
-            "<input class='btn_form' type='submit' value='Enviar formulario'/><br>"+
-            "<input class='btn_form' type='reset' value='Limpiar formulario'/><br>"+
+            "<input class='btn_form form_enviar' type='submit' value='Enviar formulario'/><br>"+
+            "<input class='btn_form form_limpiar' type='reset' value='Limpiar formulario'/><br>"+
             "<input class='form_cerrar' type='button' value='cerrar'/>"+
         "</div>"
 )
 
 //DESPLEGAR FORMULARIO CON CLICK AL BUTTON
-
 let contactar = $(".contacto");
 contactar.click( ()=>{
     let myForm = $(".formularioContacto");
@@ -73,3 +72,13 @@ contactar.click(function(e){
 })            
 
 //OCULTAR FORMULARIO CON CLICK AL BUTTON CERRAR
+let cerrar = $(".form_cerrar");
+cerrar.click(() =>{
+    let myForm = $(".formularioContacto");
+    myForm.hide(1400);
+})
+cerrar.click(function(e){
+    e.preventDefault();
+    $('html, body, .bodyproductos, .cuerpo__productos').animate({
+        scrollTop: $(".productos").offset().top}, 2500);
+})
